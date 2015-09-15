@@ -1,0 +1,209 @@
+.homepage-main{
+
+}
+
+
+.grayscale{
+    /**  格式，filer: grayscale(效果范围)
+     *  效果范围，取值范围为0-1或0-100%；0表示无效果，1或100%表示最大效果
+     */
+    -webkit-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+
+.blur{
+    /**  格式，filer: blur(模糊半径)
+     *  模糊半径，取值范围0~Npx，0为无效果
+     */
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+}
+
+#main-nav{
+    margin: 0px;
+    opacity: 1;
+
+    opacity: 0.8;
+    border: none;
+
+    height: 30px;
+
+    z-index: 2000;
+
+}
+
+#main-nav li:hover a{
+    color: gainsboro;
+}
+
+
+
+#header-logo{
+
+    margin-left: 20%;
+    height: 100%;
+}
+
+#header-logo img{
+    height: auto;
+    width: 100px;
+    margin: -10%;
+}
+#header-link{
+    padding-right: 0px;
+    opacity: 1;
+
+}
+
+
+
+
+#header-link li:hover a{
+
+}
+
+
+.homepage{
+    background: url("../img/headbg02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 1;
+
+
+}
+
+
+
+.header-content{
+    width: auto;
+    height: 666px;
+
+
+
+}
+
+.header-line {
+
+    padding-top: 15% ;
+    font-size: 200%;
+    color: white;
+}
+
+.header-line h1{
+    font-size: 200%;
+}
+
+.header-subheadline{
+    font-size: 200%;
+    line-height: 3em;
+    color: white;
+}
+
+.homepage-s2{
+    height: 4000px;
+    background: WHITE;
+    opacity: 1;
+}
+
+.homepage-s1{
+    background: #ffffff;
+    padding: 30px 0;
+}
+
+.homepage-s1 ul{
+    width: 100%;
+}
+.homepage-s1 ul li{
+    width: 15%;
+}
+
+.homepage-s1 img{
+    width: 100%;
+}
+
+
+
+.homepage-s1 li:hover img{
+
+    /**  格式，filer: grayscale(效果范围)
+     *  效果范围，取值范围为0-1或0-100%；0表示无效果，1或100%表示最大效果
+     */
+    -webkit-filter: none;
+    -o-filter:none;
+    -moz-filter:none ;
+    -ms-filter: none;
+    filter: none;
+
+}
+.affix-top {
+    background-color: transparent;
+    opacity: 0.3;
+}
+ .affix{
+     background: black;
+     width: 100%;
+    text-align: center;
+
+     color: aqua;
+}
+
+button.contact-me {
+
+     position: fixed;
+     bottom: 100px;
+     z-index: 9990;
+     background: none;
+     border: none;
+    transition: 0.3s;
+}
+
+header .navbar-default button.contact-me {
+
+    right:-200px;
+}
+
+header .affix button.contact-me {
+
+     right: 0;
+}
+
+section.section-block {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+
+}
+
+section.section-block .pushed-img {
+    text-align: right;
+    position: absolute;
+    right: 0;
+    max-width: 50vw;
+    bottom: 0;
+}
+
+section .section-title h2{
+    padding: 60px 0px;
+    font-size: 200%;
+    line-height: 3em;
+}
+
+section .section-describe {
+    font-size: 20px;
+    padding-bottom: 100px;
+}
+
+
+
+section.homepage-s3{
+    background-color: #E4E6E5;
+}
