@@ -47,7 +47,28 @@
             <div class="container"><!--contactMe-->
                     <div class="row">
                         <div class="col-md-2 col-xs-10 col-md-offset-12">
-                            <button class="contact-me"><img src="img/contact_button.png"></button>
+                            <button class="contact-me" data-toggle="modal" data-target="#myModal"><img src="img/contact_button.png"></button>
+                        </div>
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="myModalLabel">Contact Me</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h2>Call me</h2>
+                                        <img src="img/金威震名片二维码.png"><br>
+                                        <h3>Or Weixin Me</h3>
+                                        <img src="img/WeChatImage635779939810227491.jpg">
+                                        
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
             </div>
